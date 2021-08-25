@@ -1,3 +1,10 @@
 body {
   background-color: rgb(253, 251, 251);
+  font-family: monospace, sans-serif;
+}
+
+#cabeçalho{
+  top: 0;
+  background-color: red;
+  font-family: Arial, Helvetica, sans-serif;
 }
