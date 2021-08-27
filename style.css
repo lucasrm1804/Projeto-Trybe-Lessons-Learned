@@ -1,5 +1,6 @@
 body {
   background-color: rgb(253, 251, 251);
+  margin: 0;
 }
 
 #cabecalho {
@@ -13,13 +14,56 @@ body {
   left: 0;
 }
 
-#imagem{
+#titulo{
+  margin-bottom: 15px;
+
+}
+
+#imagem {
   max-width: auto;
-  position:relative;
+  position: relative;
+  float: right;
 }
 
 #minha_foto {
   border-radius: 10%;
   max-width: 35%;
-  background-position: right ;
+  float: right;
+  padding: 75px 10px;
+}
+ 
+#fundo{
+background-image: url('aprender.jpeg');
+background-size:cover;
+background-position:80%;
+opacity: 80%;
+padding: 70px 15px 60px 15px;
+margin-top: 75px;
+display: inline-block ;
+}
+
+#licoes_aprendidas {
+  margin-top: 75px; 
+  color: black;
+  font-weight: 800;
+  font-size: 300;
+  float: right;
+  padding: 30px 70px;
+  max-width: 35%;
+} 
+
+#licoes_a_aprender {
+  margin-top: 75px; 
+  color: black;
+  font-weight: 800;
+  font-size: 300;
+  float: left;
+  padding: 30px 70px;
+  max-width: 35%;
+} 
+
+#first{
+  display: inline;
+  margin: 0;
+  max-width: auto;
 }
