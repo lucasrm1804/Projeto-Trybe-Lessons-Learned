@@ -14,7 +14,7 @@ body {
   left: 0;
 }
 
-#titulo{
+#titulo {
   margin-bottom: 15px;
 }
 
@@ -31,8 +31,8 @@ body {
   float: right;
   opacity: 99.9%;
 }
- 
-#fundo{
+
+#fundo {
   background-image: url('aprender.jpeg');
   background-position: 80%;
   opacity: 80%;
@@ -42,10 +42,10 @@ body {
 }
 
 #licoes_aprendidas {
-  margin-top: 75px; 
+  margin-top: 75px;
   color: black;
-  font-weight: 800;
-  font-size: 300;
+  font-weight: bolder;
+  font-size: 20px;
   float: left;
   max-width: 35%;
   margin-left: 100px;
@@ -53,17 +53,17 @@ body {
 }
 
 #licoes_a_aprender {
-  margin-top: 75px; 
+  margin-top: 75px;
   color: black;
-  font-weight: 800;
-  font-size: 300;
-  float:right;
+  font-weight: bolder;
+  font-size: 20px;
+  float: right;
   max-width: 35%;
   margin-right: 100px;
   margin-bottom: 55px;
 }
 
-#first{
+#first {
   margin-top: 75px;
   display: inline;
   padding: 10px 70px;
@@ -71,9 +71,20 @@ body {
 
 #rodape {
   position: absolute;
-  background-color: ;
   font-family: monospace, sans-serif;
   margin: 0;
   display: block;
   width: 100%;
+  
+}
+
+#link1 {
+  max-width: 3%;
+  float: left;
+  border-radius:50%;
+}
+
+#link2 {
+  max-width: 5%;
+  float: left;
 }
