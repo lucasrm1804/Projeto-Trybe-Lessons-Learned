@@ -29,15 +29,15 @@ body {
   border-radius: 10%;
   max-width: 35%;
   float: right;
+  opacity: 99.9%;
 }
  
 #fundo{
   background-image: url('aprender.jpeg');
-  background-size: cover;
   background-position: 80%;
   opacity: 80%;
   Width: 55%;
-  margin: 60px 2px;
+  margin: 60px 0;
   display: inline-block;
 }
 
@@ -46,9 +46,10 @@ body {
   color: black;
   font-weight: 800;
   font-size: 300;
-  float: right;
-  padding: 30px 70px;
+  float: left;
   max-width: 35%;
+  margin-left: 100px;
+  margin-bottom: 55px;
 }
 
 #licoes_a_aprender {
@@ -56,13 +57,23 @@ body {
   color: black;
   font-weight: 800;
   font-size: 300;
-  float: left;
-  padding: 30px 70px;
+  float:right;
   max-width: 35%;
+  margin-right: 100px;
+  margin-bottom: 55px;
 }
 
 #first{
   margin-top: 75px;
   display: inline;
-  padding: 30px 70px;
+  padding: 10px 70px;
+}
+
+#rodape {
+  position: absolute;
+  background-color: ;
+  font-family: monospace, sans-serif;
+  margin: 0;
+  display: block;
+  width: 100%;
 }
