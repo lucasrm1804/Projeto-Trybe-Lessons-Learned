@@ -36,7 +36,7 @@ body {
   background-image: url('aprender.jpeg');
   background-position: 80%;
   opacity: 80%;
-  Width: 55%;
+  width: 55%;
   margin: 60px 0;
   display: inline-block;
 }
@@ -44,7 +44,7 @@ body {
 #licoes_aprendidas {
   margin-top: 75px;
   color: black;
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 20px;
   float: left;
   max-width: 35%;
@@ -55,7 +55,7 @@ body {
 #licoes_a_aprender {
   margin-top: 75px;
   color: black;
-  font-weight: bolder;
+  font-weight: 900;
   font-size: 20px;
   float: right;
   max-width: 35%;
@@ -70,21 +70,40 @@ body {
 }
 
 #rodape {
-  position: absolute;
   font-family: monospace, sans-serif;
-  margin: 0;
-  display: block;
+  margin: 10px;
   width: 100%;
-  
+  padding: 10 px 0px;
+  clear: both;
 }
 
 #link1 {
   max-width: 3%;
   float: left;
-  border-radius:50%;
+  border-radius: 30%;
+  padding: 3px;
 }
 
 #link2 {
   max-width: 5%;
   float: left;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+#lado-esquerdo {
+  font-style: italic;
+  max-width: 30%;
+  text-align: justify;
+  float: left;
+  padding: 5px;
+}
+
+#lado-direito {
+  font-style: italic;
+  max-width: 30%;
+  text-align: justify;
+  float: right;
+  padding: 5px;
+
 }
